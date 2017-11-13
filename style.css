@@ -139,7 +139,7 @@ header .first_row li {
 
 .login_block {
 	display: flex;
-	flex-basis: 25%;
+	flex-basis: 22%;
 	justify-content: flex-end;
 }
 
@@ -155,8 +155,15 @@ header .first_row li {
 }
 
 
-.cart {
 
+.cart {
+	display: flex;
+	flex-basis: 3%;
+	justify-content: flex-end;
+}
+
+.cart a {
+	font-size: 16px;
 }
 
 .second_row {
@@ -180,11 +187,12 @@ header .first_row li {
 
 .slider_main {
 	width: 100%;
-	height: auto;
+	height: 516px;
 	background-image: url(img/slider/main_slider.png);
 	background-repeat: no-repeat;
 	-webkit-background-size: 100%;
 	background-size: 100%;
+	position: relative;
 }
 
 .slider_all_text {
@@ -211,10 +219,13 @@ div.text_slider2 {
 }
 
 .product_slider {
-	width: 40%;
+	position: absolute;
+	top: 289px;
+	left: 281px;
+	/*width: 40%;
 	text-align: right;
 	height: auto;
-	padding:5px 18px 0 0;
+	padding:5px 18px 0 0;*/
 }
 
 .menu_bottom div {
@@ -241,8 +252,7 @@ div.text_slider2 {
 	background-repeat: no-repeat;
 	-webkit-background-size: 100%;
 	background-size: 100%;
-	/*margin-right: -6px;
-	margin-left:-5px;*/
+	
 }
 
 .girl3 {
@@ -506,12 +516,44 @@ div.text_slider2 {
 	position: absolute; 
 }
 
+.big_circle {
+	height: 109px;
+	width: 109px;
+	border-radius: 50%;
+	position: absolute;
+	color: #c59a77;
+	font-family: "Proxima Nova";
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase; 
+	text-decoration: none;
+}
+
+.girl1, .girl2, .girl3 {
+	position: relative;
+}
+
+.menu_bottom .circle {
+	top: 123px;
+	left: 31px;
+	background-color: white;
+	border: 1px solid lightgrey;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16);
+	color: #c59a77;
+}
+
 /*.place_product .circle a {
 	color: #c59a77;
 }*/
 
 
-.fa {
+.fa_mb {
+	position: absolute;
+	top: 12px;
+	left: 17px;
+}
+
+.fa_p {
 	position: absolute;
 	top: 11px;
 	left: 11px;
@@ -525,7 +567,124 @@ div.text_slider2 {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16);
 	color: #c59a77;
 }
-.place_product .circle:hover {
-	color: white;
-	background-color: #c59a77;
+
+.menu_bottom .black_circle {
+	background-color: #1f1f1f;
+	color: black;
+	border: 1px solid lightgrey;
 }
+
+.menu_bottom .black_circle:hover {
+	background-color: white;
+	color: black;
+	border: 1px solid lightgrey;
+
+}
+
+.menu_bottom .grey_circle {
+	background-color: #1e1e1e;
+	color: #bbc2c8;
+}
+
+.menu_bottom .grey_circle:hover {
+	background-color: white;
+	color: black;
+	border: 1px solid lightgrey;
+	-webkit-transition: all 0.3s ease;;
+  	-moz-transition: all 0.3s ease;;
+  	-o-transition: all 0.3s ease;;
+  	transition: all 0.3s ease;
+}
+
+.menu_bottom .light_circle {
+	background-color: white;
+	color: #b58c6b;
+}
+
+.menu_bottom .light_circle:hover {
+	background-color: #b58c6b;
+	color: white;
+	-webkit-transition: all 0.3s ease;;
+  	-moz-transition: all 0.3s ease;;
+  	-o-transition: all 0.3s ease;;
+  	transition: all 0.3s ease;
+}
+
+.products .prod_circle:hover {
+	background-color: #c59a77;
+	color: white;
+	-webkit-transition: all 0.3s ease;;
+  	-moz-transition: all 0.3s ease;;
+  	-o-transition: all 0.3s ease;;
+  	transition: all 0.3s ease;
+}
+
+.products .prod_circle_alt:hover {
+	background-color: white;
+	color: #c59a77;
+	-webkit-transition: all 0.3s ease;;
+  	-moz-transition: all 0.3s ease;;
+  	-o-transition: all 0.3s ease;;
+  	transition: all 0.3s ease;
+}
+
+.products .prod_circle_alt {
+	background-color: #c59a77;
+	color: white;
+}
+
+
+.slider_main .circle {
+	top: 204px;
+	left: 1175px;
+	background-color: white;
+	border: 1px solid lightgrey;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16);
+	color: #c59a77;
+}
+
+.slider_main .light_circle:hover {
+	background-color: #b58c6b;
+	color: white;
+	-webkit-transition: all 0.3s ease;;
+  	-moz-transition: all 0.3s ease;;
+  	-o-transition: all 0.3s ease;;
+  	transition: all 0.3s ease;
+}
+
+.slider_main .big_circle {
+	top: 375px;
+	left: 1139px;
+	background-color: white;
+	border: 1px solid lightgrey;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16);
+	color: #c59a77;
+}
+
+.text_big_circle {
+	position: absolute;
+	left: 18px;
+	top: 50px;
+}
+
+.fa-2x {
+    font-size: 2em;
+}
+
+.counter_backet {
+	color: #1e1e1e;
+	font-family: "Proxima Nova - Semibold";
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 17.02px;
+	text-transform: uppercase;
+}
+
+.social_ico span {
+	height: 39px;
+	width: 39px;
+	padding-left: 5px;
+	border-radius: 50%;
+	color: #c59a77;
+}
+
