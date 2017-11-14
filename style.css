@@ -139,8 +139,10 @@ header .first_row li {
 
 .login_block {
 	display: flex;
-	flex-basis: 22%;
+	flex-basis: 25%;
 	justify-content: flex-end;
+	align-items: center;
+
 }
 
 .login_block a {
@@ -154,16 +156,21 @@ header .first_row li {
 	letter-spacing: 0.25px;
 }
 
+.enter {
+	padding-right: 15px;
+}
 
 
 .cart {
 	display: flex;
 	flex-basis: 3%;
 	justify-content: flex-end;
-}
+	}
 
 .cart a {
 	font-size: 16px;
+	padding-right: 7px;
+
 }
 
 .second_row {
@@ -222,10 +229,6 @@ div.text_slider2 {
 	position: absolute;
 	top: 289px;
 	left: 281px;
-	/*width: 40%;
-	text-align: right;
-	height: auto;
-	padding:5px 18px 0 0;*/
 }
 
 .menu_bottom div {
@@ -542,10 +545,6 @@ div.text_slider2 {
 	color: #c59a77;
 }
 
-/*.place_product .circle a {
-	color: #c59a77;
-}*/
-
 
 .fa_mb {
 	position: absolute;
@@ -578,10 +577,10 @@ div.text_slider2 {
 	background-color: white;
 	color: black;
 	border: 1px solid lightgrey;
-	-webkit-transition: all 0.3s ease;;
-  	-moz-transition: all 0.3s ease;;
-  	-o-transition: all 0.3s ease;;
-  	transition: all 0.3s ease;
+	-webkit-transition: all 0.5s ease;;
+  	-moz-transition: all 0.5s ease;;
+  	-o-transition: all 0.5s ease;;
+  	transition: all 0.5s ease;
 
 }
 
@@ -594,10 +593,10 @@ div.text_slider2 {
 	background-color: white;
 	color: black;
 	border: 1px solid lightgrey;
-	-webkit-transition: all 0.3s ease;;
-  	-moz-transition: all 0.3s ease;;
-  	-o-transition: all 0.3s ease;;
-  	transition: all 0.3s ease;
+	-webkit-transition: all 0.5s ease;;
+  	-moz-transition: all 0.5s ease;;
+  	-o-transition: all 0.5s ease;;
+  	transition: all 0.5s ease;
 }
 
 .menu_bottom .light_circle {
@@ -608,28 +607,28 @@ div.text_slider2 {
 .menu_bottom .light_circle:hover {
 	background-color: #b58c6b;
 	color: white;
-	-webkit-transition: all 0.3s ease;;
-  	-moz-transition: all 0.3s ease;;
-  	-o-transition: all 0.3s ease;;
-  	transition: all 0.3s ease;
+	-webkit-transition: all 0.5s ease;;
+  	-moz-transition: all 0.5s ease;;
+  	-o-transition: all 0.5s ease;;
+  	transition: all 0.5s ease;
 }
 
 .products .prod_circle:hover {
 	background-color: #c59a77;
 	color: white;
-	-webkit-transition: all 0.3s ease;;
-  	-moz-transition: all 0.3s ease;;
-  	-o-transition: all 0.3s ease;;
-  	transition: all 0.3s ease;
+	-webkit-transition: all 0.5s ease;;
+  	-moz-transition: all 0.5s ease;;
+  	-o-transition: all 0.5s ease;;
+  	transition: all 0.5s ease;
 }
 
 .products .prod_circle_alt:hover {
 	background-color: white;
 	color: #c59a77;
-	-webkit-transition: all 0.3s ease;;
-  	-moz-transition: all 0.3s ease;;
-  	-o-transition: all 0.3s ease;;
-  	transition: all 0.3s ease;
+	-webkit-transition: all 0.5s ease;;
+  	-moz-transition: all 0.5s ease;;
+  	-o-transition: all 0.5s ease;;
+  	transition: all 0.5s ease;
 }
 
 .products .prod_circle_alt {
@@ -650,10 +649,10 @@ div.text_slider2 {
 .slider_main .light_circle:hover {
 	background-color: #b58c6b;
 	color: white;
-	-webkit-transition: all 0.3s ease;;
-  	-moz-transition: all 0.3s ease;;
-  	-o-transition: all 0.3s ease;;
-  	transition: all 0.3s ease;
+	-webkit-transition: all 0.5s ease;;
+  	-moz-transition: all 0.5s ease;;
+  	-o-transition: all 0.5s ease;;
+  	transition: all 0.5s ease;
 }
 
 .slider_main .big_circle {
@@ -692,3 +691,48 @@ div.text_slider2 {
 	color: #c59a77;
 }
 
+
+.social_ico a .inst:hover {
+	color: violet;
+	-webkit-transition: all 0.5s ease;;
+  	-moz-transition: all 0.5s ease;;
+  	-o-transition: all 0.5s ease;;
+  	transition: all 0.5s ease;
+}
+
+.social_ico a .vkont:hover {
+	color: royalblue;
+	-webkit-transition: all 0.5s ease;;
+  	-moz-transition: all 0.5s ease;;
+  	-o-transition: all 0.5s ease;;
+  	transition: all 0.5s ease;
+}
+
+.social_ico a .faceb:hover {
+	color: navy;
+	-webkit-transition: all 0.5s ease;;
+  	-moz-transition: all 0.5s ease;;
+  	-o-transition: all 0.5s ease;;
+  	transition: all 0.5s ease;
+}
+
+
+.menu_top li:hover {
+	-webkit-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	transform: scale(1.15);
+}
+
+.top_nav li:hover {
+	-webkit-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	transform: scale(1.15);
+}
+
+.footer2 a:hover, .footer3 a:hover, .footer4 a:hover, .footer5 a:hover {
+	color: white;
+	-webkit-transition: all 0.2s ease;;
+  	-moz-transition: all 0.2s ease;;
+  	-o-transition: all 0.2s ease;;
+  	transition: all 0.2s ease;
+}
