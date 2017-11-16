@@ -169,12 +169,13 @@ header .first_row li {
 
 .cart a {
 	font-size: 16px;
-	padding-right: 4px;
+	padding-right: 7px;
 
 }
 
 .second_row {
-	margin: 30px;
+	padding: 10px;
+	margin: 20px;
 }
 
 .third_row a {
@@ -225,22 +226,24 @@ div.text_slider2 {
 }
 
 .product_slider {
-	min-height: 182px;
 	background-image: url(img/slider/product_slider.png);
-	background-position: 30% 70%;
 	background-repeat: no-repeat;
-	/*top: 289px;
-	left: 281px;*/
+	background-position: 22% 67%;
+	min-height: 182px;
 }
 
 .menu_bottom {
 	display: flex;
 	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.menu_bottom div {
 	min-height: 192px;
 	flex-basis: 33.33%;
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	
 }
 
 .girl1 {
@@ -297,6 +300,9 @@ div.text_slider2 {
 
 }
 
+.buttom_girl1{
+
+}
 
 .girl3 img {
 	display: flex;
@@ -306,25 +312,25 @@ div.text_slider2 {
 	height: 156px;
 }
 
-.products {
+ .products {
 	display: flex;
 	flex-direction: row;
+	justify-content: flex-start;
 	flex-wrap: wrap;
 	margin: 0;
 	padding: 0;
 }
 
 .place_product {
-	min-height: 298px;
+	display: inherit;
+	min-height: 300px;
 	flex-basis: 33.33%;
 	background-color: white;
-	border: 1px solid lightgrey;
-	margin-right: -1px;
-	box-sizing: border-box;
 	position: relative;
+	box-sizing: border-box;
 }
 
-.text_product{
+.text_product {
 	max-width: 140px;
 	margin: 31px 0 0 40px;
 
@@ -364,56 +370,70 @@ div.text_slider2 {
 	background-image: url(img/main/products/product1.png);
 	background-repeat: no-repeat;
 	background-position: 70% center;
+	border-right: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
 }
 .product_2 {
 	background-image: url(img/main/products/product2.png);
 	background-repeat: no-repeat;
 	background-position: 70% center;
+	border-right: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
 
 }
 .product_3 {
 	background-image: url(img/main/products/product3.png);
 	background-repeat: no-repeat;
 	background-position: 70% center;
-
+	border-bottom: 1px solid lightgrey;
 }
 .product_4 {
 	background-image: url(img/main/products/product4.png);
 	background-repeat: no-repeat;
 	background-position: 70% center;
+	border-right: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
 }
 .product_5 {
 	background-image: url(img/main/products/product10_bgc.png);
 	background-repeat: no-repeat;
 	-webkit-background-size: 100%;
 	background-size: 100%;
+	border-right: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
 }
 .product_6 {
 	background-image: url(img/main/products/product5.png);
 	background-repeat: no-repeat;
 	background-position: 70% center;
+	border-bottom: 1px solid lightgrey;
 }
 .product_7 {
 	background-image: url(img/main/products/product6.png);
 	background-repeat: no-repeat;
 	background-position: 70% center;
+	border-right: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
 }
 .product_8 {
 	background-image: url(img/main/products/product7.png);
 	background-repeat: no-repeat;
 	background-position: 70% center;
+	border-right: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
 }
 .product_9 {
 	background-image: url(img/main/products/product8.png);
 	background-repeat: no-repeat;
 	background-position: 70% center;
+	border-bottom: 1px solid lightgrey;
 }
 .product_10 {
 	background-image: url(img/main/products/product9_full.png);
 	background-repeat: no-repeat;
 	-webkit-background-size: 100%;
 	background-size: 100%;
-	border-bottom: none;
+	border-right: 1px solid lightgrey;
 }
 
 .product_info {
@@ -422,7 +442,6 @@ div.text_slider2 {
 	background-repeat: no-repeat;
 	-webkit-background-size: 100%;
 	background-size: 100%;
-	border-bottom: none;
 }
 
 .text_spec {
@@ -537,7 +556,6 @@ div.text_slider2 {
 
 .girl1, .girl2, .girl3 {
 	position: relative;
-	flex-basis: inherit;
 }
 
 .menu_bottom .circle {
@@ -563,8 +581,8 @@ div.text_slider2 {
 }
 
 .place_product .circle {
-	bottom: 32px;
-	right: 32px;
+	bottom: 33px;
+	right: 33px;
 	background-color: white;
 	border: 1px solid lightgrey;
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16);
