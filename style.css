@@ -169,13 +169,12 @@ header .first_row li {
 
 .cart a {
 	font-size: 16px;
-	padding-right: 7px;
+	padding-right: 4px;
 
 }
 
 .second_row {
-	padding: 10px;
-	margin: 20px;
+	margin: 30px;
 }
 
 .third_row a {
@@ -226,20 +225,21 @@ div.text_slider2 {
 }
 
 .product_slider {
-	position: absolute;
-	top: 289px;
-	left: 281px;
+	min-height: 182px;
+	background-image: url(img/slider/product_slider.png);
+	background-position: 30% 70%;
+	background-repeat: no-repeat;
+	/*top: 289px;
+	left: 281px;*/
 }
 
-.menu_bottom div {
-	display: inline-flex;
+.menu_bottom {
+	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
 	min-height: 192px;
-	width: 33.33%;
+	flex-basis: 33.33%;
 	margin: 0;
 	padding: 0;
-	margin-right: -4px;
 	
 }
 
@@ -259,7 +259,7 @@ div.text_slider2 {
 }
 
 .girl3 {
-	background-image: url(img/main/girls/background_product3.png);
+	background-image: url(img/main/girls/product_3.png);
 	background-repeat: no-repeat;
 	-webkit-background-size: 100%;
 	background-size: 100%;
@@ -297,9 +297,6 @@ div.text_slider2 {
 
 }
 
-.buttom_girl1{
-
-}
 
 .girl3 img {
 	display: flex;
@@ -309,19 +306,23 @@ div.text_slider2 {
 	height: 156px;
 }
 
-.place_product {
-	display: inline-flex;
+.products {
+	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
-	min-height: 300px;
-	width: 33.2965%;
-	background-color: white;
-	margin-right: -6px;
-	margin-bottom:-1px;
-	border: 1px solid lightgrey;
-	position: relative;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
 }
 
+.place_product {
+	min-height: 298px;
+	flex-basis: 33.33%;
+	background-color: white;
+	border: 1px solid lightgrey;
+	margin-right: -1px;
+	box-sizing: border-box;
+	position: relative;
+}
 
 .text_product{
 	max-width: 140px;
@@ -412,14 +413,16 @@ div.text_slider2 {
 	background-repeat: no-repeat;
 	-webkit-background-size: 100%;
 	background-size: 100%;
+	border-bottom: none;
 }
 
 .product_info {
-	width: 66.66%;
+	flex-basis: 66.66%;
 	background-image: url(img/main/products/girl_bottom.png);
 	background-repeat: no-repeat;
 	-webkit-background-size: 100%;
 	background-size: 100%;
+	border-bottom: none;
 }
 
 .text_spec {
@@ -534,6 +537,7 @@ div.text_slider2 {
 
 .girl1, .girl2, .girl3 {
 	position: relative;
+	flex-basis: inherit;
 }
 
 .menu_bottom .circle {
@@ -559,8 +563,8 @@ div.text_slider2 {
 }
 
 .place_product .circle {
-	top: 228px;
-	left: 354px;
+	bottom: 32px;
+	right: 32px;
 	background-color: white;
 	border: 1px solid lightgrey;
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16);
@@ -639,7 +643,7 @@ div.text_slider2 {
 
 .slider_main .circle {
 	top: 204px;
-	left: 1175px;
+	right: 66px;
 	background-color: white;
 	border: 1px solid lightgrey;
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16);
@@ -657,7 +661,7 @@ div.text_slider2 {
 
 .slider_main .big_circle {
 	top: 375px;
-	left: 1139px;
+	right: 32px;
 	background-color: white;
 	border: 1px solid lightgrey;
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16);
